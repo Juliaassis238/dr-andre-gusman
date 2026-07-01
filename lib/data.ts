@@ -18,11 +18,11 @@ export const clinic = {
   },
   contact: {
     email: "dr.andregusman@gmail.com",
-    whatsapp: "+5515997647172",
-    whatsappDisplay: "+55 15 99764-7172",
-    phoneHref: "tel:+5515997647172",
+    whatsapp: "+5515991574343",
+    whatsappDisplay: "+55 15 99157-4343",
+    phoneHref: "tel:+5515991574343",
     whatsappHref:
-      "https://wa.me/5515997647172?text=Ol%C3%A1%2C%20encontrei%20o%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.",
+      "https://wa.me/5515991574343?text=Olá, encontrei o site e gostaria de agendar uma avaliação.",
   },
   social: {
     instagram: {
