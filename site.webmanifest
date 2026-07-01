@@ -1,0 +1,16 @@
+{
+  "name": "Dr. André Gusman — Odontologia Avançada",
+  "short_name": "Dr. André Gusman",
+  "description": "Odontologia Avançada em Sorocaba - SP",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FBF9F5",
+  "theme_color": "#232220",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
