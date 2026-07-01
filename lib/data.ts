@@ -40,7 +40,7 @@ export const clinic = {
     urgency: "Urgência odontológica 24 horas",
   },
   about:
-    "Na Clínica Odontológica Dr. André Gusman & Equipe — Odontologia Avançada, em Sorocaba (SP), oferecemos atendimento humanizado e seguro em cirurgias odontológicas, urgências 24h e tratamentos que unem tecnologia, técnica e acolhimento para transformar sorrisos com excelência.",
+    "Dr. André Gusman é um cirurgião-dentista formado pela UNISO, com vasta experiência em diversas áreas da odontologia, como urgências 24h e procedimentos cirúrgicos, além de limpezas, clareamento, restaurações e tratamento de canal. Seu objetivo é proporcionar um atendimento humanizado e seguro, utilizando tecnologia de ponta para garantir os melhores resultados para seus pacientes.",
 };
 
 export type Procedure = {
@@ -53,77 +53,60 @@ export type Procedure = {
 
 export const procedures: Procedure[] = [
   {
-    slug: "limpeza-profilaxia",
-    name: "Limpeza / Profilaxia",
-    short: "Manutenção preventiva da saúde bucal.",
-    description:
-      "Remoção profissional de placa e tártaro para manter a saúde e o brilho do seu sorriso, com orientação individual de cuidados diários.",
-    image: "/images/procedimento-limpeza.jpg",
-  },
-  {
-    slug: "extracao-de-siso",
-    name: "Extração de siso",
-    short: "Cirurgia segura para dentes do siso.",
-    description:
-      "Avaliação por imagem, planejamento cirúrgico e remoção de terceiros molares com protocolo de conforto e recuperação acompanhada.",
-    image: "/images/procedimento-siso.jpg",
-  },
-  {
-    slug: "urgencia-odontologica",
-    name: "Urgência odontológica",
-    short: "Atendimento 24 horas, todos os dias.",
-    description:
-      "A dor de dente não espera. Atendimento imediato para traumas, dores agudas e infecções, disponível 24 horas, incluindo finais de semana e feriados.",
-  },
-  {
-    slug: "endodontia",
-    name: "Tratamento / Retratamento de canal",
-    short: "Endodontia com precisão e conforto.",
-    description:
-      "Tratamento e retratamento de canal com tecnologia rotatória e controle de dor, preservando o dente natural sempre que possível.",
-  },
-  {
-    slug: "extracao-simples",
-    name: "Extração de dente simples",
-    short: "Quando a preservação não é possível.",
-    description:
-      "Em casos onde a preservação do dente não é indicada, realizamos a extração com técnica minimamente invasiva e planejamento de reabilitação.",
-  },
-  {
-    slug: "dentistica",
-    name: "Restauração simples e complexa",
-    short: "Dentística estética e funcional.",
-    description:
-      "Restaurações em resina e cerâmica que devolvem forma, função e naturalidade ao sorriso, com atenção milimétrica à cor e à textura.",
-  },
-  {
     slug: "clareamento-dental",
     name: "Clareamento dental",
     short: "Seu sorriso, seu cartão de visita.",
-    description:
-      "Protocolos de clareamento supervisionado, em consultório ou caseiro, com resultados previsíveis e seguros para o esmalte.",
-    image: "/images/procedimento-clareamento.jpg",
+    description: "Realce o brilho do seu sorriso com procedimentos seguros e eficazes.",
+    image: "/images/service-1-clareamento.png",
   },
   {
     slug: "odontopediatria",
     name: "Odontopediatria",
-    short: "Cuidado especial para os pequenos.",
-    description:
-      "Atendimento acolhedor e lúdico para crianças, construindo desde cedo uma relação de confiança com o cuidado bucal.",
+    short: "Cuidado e carinho para sorrisos que vão durar a vida toda.",
+    description: "Atendimento especializado para crianças em um ambiente acolhedor, seguro e preparado para elas.",
+    image: "/images/service-2-odontopediatria.png",
+  },
+  {
+    slug: "endodontia",
+    name: "Tratamento de Canal",
+    short: "Tecnologia e conforto no seu tratamento.",
+    description: "Tratamento endodôntico para salvar seu dente com conforto, segurança e tecnologia de ponta.",
+    image: "/images/service-3-canal.png",
   },
   {
     slug: "protese",
-    name: "Próteses dentárias",
-    short: "Reabilitação funcional e estética.",
-    description:
-      "Próteses fixas e removíveis planejadas para devolver mastigação, fala e estética com naturalidade e durabilidade.",
+    name: "Próteses Dentárias",
+    short: "Soluções personalizadas para restaurar estética e funcionalidade.",
+    description: "Devolvemos o prazer de sorrir com segurança através de materiais de alta qualidade e resultados naturais.",
+    image: "/images/service-4-protese.png",
   },
   {
-    slug: "bruxismo-dtm",
-    name: "Bruxismo e DTM",
-    short: "Diagnóstico e tratamento da ATM.",
-    description:
-      "Avaliação da articulação temporomandibular e da musculatura orofacial, com placas e terapias para aliviar dor e proteger o sorriso.",
+    slug: "cirurgia-oral",
+    name: "Cirurgia Oral",
+    short: "Extrações e procedimentos cirúrgicos com precisão.",
+    description: "Extrações de sisos, canal tratado, de simples a complexa com segurança e precisão.",
+    image: "/images/service-5-cirurgia.png",
+  },
+];
+
+export const cases = [
+  { 
+    title: "Clareamento dental", 
+    detail: "Protocolo supervisionado · Resultados visíveis",
+    before: "/images/resultado-clareamento-before.png",
+    after: "/images/resultado-clareamento-after.png"
+  },
+  { 
+    title: "Restauração estética", 
+    detail: "Dentística avançada · Naturalidade e função",
+    before: "/images/resultado-restauracao-before.png",
+    after: "/images/resultado-restauracao-after.png"
+  },
+  { 
+    title: "Reabilitação com prótese", 
+    detail: "Planejamento funcional completo e seguro",
+    before: "/images/resultado-protese-before.png",
+    after: "/images/resultado-protese-after.png"
   },
 ];
 
