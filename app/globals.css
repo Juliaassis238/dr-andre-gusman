@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Fraunces", serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+@layer base {
+  * {
+    @apply border-line;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  body {
+    @apply bg-paper text-graphite font-body antialiased;
+    font-feature-settings: "ss01" 1, "cv01" 1;
+  }
+
+  .dark body {
+    @apply bg-ink text-paper;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+
+  ::selection {
+    background-color: #C9A876;
+    color: #141312;
+  }
+}
+
+@layer utilities {
+  .eyebrow {
+    @apply font-mono text-[0.7rem] uppercase tracking-widest2 text-champagne-deep dark:text-champagne;
+  }
+
+  .hairline {
+    @apply border-t border-line dark:border-line-dark;
+  }
+
+  .container-edit {
+    @apply mx-auto max-w-edit px-6 sm:px-10 lg:px-16;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-3 rounded-full bg-graphite px-7 py-3.5 font-body text-sm tracking-wide text-paper transition-all duration-500 ease-editorial hover:bg-champagne-deep dark:bg-paper dark:text-ink dark:hover:bg-champagne;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-3 rounded-full border border-graphite/25 px-7 py-3.5 font-body text-sm tracking-wide text-graphite transition-all duration-500 ease-editorial hover:border-champagne-deep hover:text-champagne-deep dark:border-paper/25 dark:text-paper dark:hover:border-champagne dark:hover:text-champagne;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Scrollbar refinement */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #C9A876;
+  border-radius: 999px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
