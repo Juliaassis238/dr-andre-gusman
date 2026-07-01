@@ -48,6 +48,7 @@ export type Procedure = {
   name: string;
   short: string;
   description: string;
+  image?: string;
 };
 
 export const procedures: Procedure[] = [
@@ -57,6 +58,7 @@ export const procedures: Procedure[] = [
     short: "Manutenção preventiva da saúde bucal.",
     description:
       "Remoção profissional de placa e tártaro para manter a saúde e o brilho do seu sorriso, com orientação individual de cuidados diários.",
+    image: "/images/procedimento-limpeza.jpg",
   },
   {
     slug: "extracao-de-siso",
@@ -64,6 +66,7 @@ export const procedures: Procedure[] = [
     short: "Cirurgia segura para dentes do siso.",
     description:
       "Avaliação por imagem, planejamento cirúrgico e remoção de terceiros molares com protocolo de conforto e recuperação acompanhada.",
+    image: "/images/procedimento-siso.jpg",
   },
   {
     slug: "urgencia-odontologica",
@@ -99,6 +102,7 @@ export const procedures: Procedure[] = [
     short: "Seu sorriso, seu cartão de visita.",
     description:
       "Protocolos de clareamento supervisionado, em consultório ou caseiro, com resultados previsíveis e seguros para o esmalte.",
+    image: "/images/procedimento-clareamento.jpg",
   },
   {
     slug: "odontopediatria",
