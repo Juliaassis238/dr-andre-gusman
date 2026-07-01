@@ -18,7 +18,7 @@ export default function HomePage() {
       <section className="relative min-h-[90vh] overflow-hidden bg-ink">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hero-cover.png"
+            src="/images/hero-presentation.png"
             alt={clinic.doctorName}
             fill
             className="object-cover opacity-60 grayscale-[0.2]"
@@ -82,7 +82,7 @@ export default function HomePage() {
           </Reveal>
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-sm shadow-xl">
              <Image
-                src="/images/hero-cover.png"
+                src="/images/hero-presentation.png"
                 alt="Dr. André Gusman em atendimento"
                 fill
                 className="object-cover"

@@ -40,7 +40,7 @@ export const clinic = {
     urgency: "Urgência odontológica 24 horas",
   },
   about:
-    "Dr. André Gusman é um cirurgião-dentista formado pela UNISO, com vasta experiência em diversas áreas da odontologia, como urgências 24h e procedimentos cirúrgicos, além de limpezas, clareamento, restaurações e tratamento de canal. Seu objetivo é proporcionar um atendimento humanizado e seguro, utilizando tecnologia de ponta para garantir os melhores resultados para seus pacientes.",
+    "Dr. André Gusman é um cirurgião-dentista formado pela UNISO, com vasta experiência em diversas áreas da odontologia, como urgências 24h e procedimentos cirúrgicos, alem de limpezas, clareamento, restaurações e tratamento de canal. Seu objetivo é proporcionar um atendimento humanizado e seguro, utilizando tecnologia de ponta para garantir os melhores resultados para seus pacientes.",
 };
 
 export type Procedure = {
