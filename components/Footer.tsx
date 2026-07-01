@@ -24,7 +24,7 @@ export function Footer() {
             <li><Link href="/sobre/" className="hover:text-champagne-deep dark:hover:text-champagne">Sobre</Link></li>
             <li><Link href="/especializacoes/" className="hover:text-champagne-deep dark:hover:text-champagne">Especializações</Link></li>
             <li><Link href="/procedimentos/" className="hover:text-champagne-deep dark:hover:text-champagne">Procedimentos</Link></li>
-            <li><Link href="/resultados/" className="hover:text-champagne-deep dark:hover:text-champagne">Resultados</Link></li>
+
             <li><Link href="/depoimentos/" className="hover:text-champagne-deep dark:hover:text-champagne">Depoimentos</Link></li>
           </ul>
         </div>

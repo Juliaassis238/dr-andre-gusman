@@ -5,6 +5,7 @@ import { Reveal, RevealStagger, RevealItem } from "@/components/Reveal";
 import { clinic, specializations, procedures, testimonials } from "@/lib/data";
 import { ReviewCard } from "@/components/ReviewCard";
 import { ServiceCarousel } from "@/components/ServiceCarousel";
+import { PhotoGalleryCarousel } from "@/components/PhotoGalleryCarousel";
 
 export const metadata: Metadata = {
   title: `${clinic.doctorName} — Odontologia Avançada em Sorocaba`,
@@ -59,7 +60,10 @@ export default function HomePage() {
         <div className="absolute top-1/4 -left-10 h-64 w-64 rounded-full bg-champagne/10 blur-[120px]" />
       </section>
 
-      {/* Carrossel de Serviços - Logo abaixo da capa */}
+      {/* Carrossel de Fotos - Logo abaixo da capa */}
+      <PhotoGalleryCarousel />
+
+      {/* Carrossel de Serviços */}
       <ServiceCarousel />
 
       {/* Seção Sobre o Dr. André Gusman */}
