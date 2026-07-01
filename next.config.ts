@@ -13,7 +13,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  trailingSlash: false,
+  trailingSlash: true,
   reactStrictMode: true,
 };
 
