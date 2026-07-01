@@ -10,13 +10,13 @@ import { clinic } from "@/lib/data";
 
 const NAV_LINKS = [
   { href: "/", label: "Início" },
-  { href: "/sobre/", label: "Sobre" },
-  { href: "/especializacoes/", label: "Especializações" },
-  { href: "/procedimentos/", label: "Procedimentos" },
+  { href: "/sobre", label: "Sobre" },
+  { href: "/especializacoes", label: "Especializações" },
+  { href: "/procedimentos", label: "Procedimentos" },
 
-  { href: "/conteudo/", label: "Conteúdo" },
-  { href: "/depoimentos/", label: "Depoimentos" },
-  { href: "/contato/", label: "Contato" },
+  { href: "/conteudo", label: "Conteúdo" },
+  { href: "/depoimentos", label: "Depoimentos" },
+  { href: "/contato", label: "Contato" },
 ];
 
 export function Header() {

@@ -49,7 +49,7 @@ export default function HomePage() {
               <a href={clinic.contact.whatsappHref} target="_blank" rel="noopener noreferrer" className="btn-primary !bg-champagne !text-ink hover:!bg-paper">
                 Agendar avaliação
               </a>
-              <Link href="/procedimentos/" className="btn-outline !border-paper/20 !text-paper hover:!border-champagne hover:!text-champagne">
+              <Link href="/procedimentos" className="btn-outline !border-paper/20 !text-paper hover:!border-champagne hover:!text-champagne">
                 Ver procedimentos
               </Link>
             </div>
@@ -79,7 +79,7 @@ export default function HomePage() {
               {clinic.about}
             </p>
             <div className="mt-12">
-              <Link href="/sobre/" className="btn-outline">
+              <Link href="/sobre" className="btn-outline">
                 Ver trajetória completa
               </Link>
             </div>
@@ -135,7 +135,7 @@ export default function HomePage() {
         </RevealStagger>
 
         <Reveal className="mt-14">
-          <Link href="/depoimentos/" className="btn-outline">
+          <Link href="/depoimentos" className="btn-outline">
             Ver todos os depoimentos
           </Link>
         </Reveal>
@@ -153,7 +153,7 @@ export default function HomePage() {
               <a href={clinic.contact.whatsappHref} target="_blank" rel="noopener noreferrer" className="btn-primary !bg-champagne !text-ink hover:!bg-paper">
                 Falar no WhatsApp
               </a>
-              <Link href="/contato/" className="btn-outline !border-paper/25 !text-paper hover:!border-champagne hover:!text-champagne">
+              <Link href="/contato" className="btn-outline !border-paper/25 !text-paper hover:!border-champagne hover:!text-champagne">
                 Ver formas de contato
               </Link>
             </div>

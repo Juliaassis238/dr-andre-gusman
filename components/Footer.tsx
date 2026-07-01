@@ -21,11 +21,11 @@ export function Footer() {
         <div>
           <p className="eyebrow mb-5">Navegação</p>
           <ul className="space-y-3 text-sm text-graphite-soft dark:text-paper/60">
-            <li><Link href="/sobre/" className="hover:text-champagne-deep dark:hover:text-champagne">Sobre</Link></li>
-            <li><Link href="/especializacoes/" className="hover:text-champagne-deep dark:hover:text-champagne">Especializações</Link></li>
-            <li><Link href="/procedimentos/" className="hover:text-champagne-deep dark:hover:text-champagne">Procedimentos</Link></li>
+            <li><Link href="/sobre" className="hover:text-champagne-deep dark:hover:text-champagne">Sobre</Link></li>
+            <li><Link href="/especializacoes" className="hover:text-champagne-deep dark:hover:text-champagne">Especializações</Link></li>
+            <li><Link href="/procedimentos" className="hover:text-champagne-deep dark:hover:text-champagne">Procedimentos</Link></li>
 
-            <li><Link href="/depoimentos/" className="hover:text-champagne-deep dark:hover:text-champagne">Depoimentos</Link></li>
+            <li><Link href="/depoimentos" className="hover:text-champagne-deep dark:hover:text-champagne">Depoimentos</Link></li>
           </ul>
         </div>
 
